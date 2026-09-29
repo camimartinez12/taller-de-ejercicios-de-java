@@ -1,7 +1,9 @@
-// ejercicio 1.3
+// ejercicio 1.1
 var nombre = "Camila";
 
 nombre = "Anny";
 console.log(nombre);
 
-//ejercicio 2.1
+// ejercicio 1.2
+const nombre = "Camila";
+console.log(nombre);
