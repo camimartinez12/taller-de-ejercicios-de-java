@@ -119,7 +119,7 @@ console.log(saludar());
 
 // ejercicio 6.1
 //Declara una variable global en el ámbito global. Luego, dentro de una función, declara una variable local. Intenta acceder a ambas variables dentro y fuera de la función, y explica qué funciona y qué no.
-const variableGlobal = "Soy global";
+/*const variableGlobal = "Soy global";
 
 function mostrarScope() {
     const variableLocal = "Soy local";
@@ -131,3 +131,15 @@ console.log(variableGlobal);
 console.log(variableLocal); 
 // Si funciona la variable global, pero no la local, ya que la variable local solo existe dentro de la función donde fue declarada.
 
+*/
+
+// ejercicio 6.2
+//Crea un objeto coche con una propiedad marca y un método mostrarMarca que use this. Llama al método y explica qué representa this.
+const coche = {
+    marca: "BYD",
+    mostrarMarca() { 
+        console.log(this.marca);
+    }
+};
+coche.mostrarMarca(); // Muestra "BYD"
+// this representa el objeto coche en este caso.
