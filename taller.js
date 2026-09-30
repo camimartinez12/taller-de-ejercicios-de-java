@@ -29,10 +29,16 @@ let indefinido;
 */
 
 // ejercicio 2.2
-const persona = {
+/*const persona = {
     nombre: "Camila",
     edad: 25,
     hobbies: ["leer", "viajar", "cocinar"]
 };
 console.log(typeof persona);
-console.log(Array.isArray(persona.hobbies)); 
+console.log(Array.isArray(persona.hobbies)); */
+
+// ejercicio 3.1
+const numero1 = 10;
+const numero2 = "5";
+console.log(numero1 + numero2); // suma de número y cadena por lo que se realiza una concatenación
+console.log(numero1 * numero2); // Multiplicación de número y cadena lo que se realiza una conversión implícita de la cadena a número
