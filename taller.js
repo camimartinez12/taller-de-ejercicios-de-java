@@ -166,11 +166,27 @@ console.log(numerosFiltrados); // [2, 3]*/
 /* Usa forEach() para iterar sobre el array frutas y mostrar cada fruta en la consola.
 Usa find() para encontrar la fruta que sea "Banana".
 Usa findIndex() para encontrar el índice de la fruta "Manzana".*/
-let frutas = ["Manzana", "Banana", "Naranja"];
+/*let frutas = ["Manzana", "Banana", "Naranja"];
 frutas.forEach(fruta => console.log(fruta));
 
 const frutaEncontrada = frutas.find(fruta => fruta === "Banana");
 console.log(frutaEncontrada); // "Banana"
 
 const indiceManzana = frutas.findIndex(fruta => fruta === "Manzana");
-console.log(indiceManzana); // 0
+console.log(indiceManzana); // 0*/
+
+//ejercicio 8.1
+/*Crea un objeto libro con propiedades titulo y autor.
+Añade un método mostrarInfo que use this para imprimir la información del libro.
+*/
+const libro = {
+    titulo: "El Principito",
+    autor: "Antoine de Saint-Exupéry",
+    mostrarInfo() {
+        console.log("Título: " + this.titulo + ", Autor: " + this.autor);
+    }
+};
+libro.mostrarInfo();
+
+
+
