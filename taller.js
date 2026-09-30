@@ -147,9 +147,17 @@ coche.mostrarMarca(); // Muestra "BYD"
 
 //ejercicio 7.1
 //Crea un array frutas = ["Manzana", "Banana"]. Usa push() para agregar "Naranja" y pop() para eliminar el último elemento. Muestra el array en cada paso.
-let frutas = ["Manzana", "Banana"];
+/*let frutas = ["Manzana", "Banana"];
 console.log(frutas);
 frutas.push("Naranja");
 console.log(frutas);
 frutas.pop();
-console.log(frutas);
+console.log(frutas);*/
+
+//ejercicio 7.2
+//Crea un array numeros = [1, 2, 3]. Usa map() para crear un nuevo array con cada número multiplicado por 2. Usa filter() para crear un nuevo array con solo los números mayores a 1.
+let numeros = [1, 2, 3];
+const numerosMultiplicados = numeros.map(num => num * 2);
+const numerosFiltrados = numeros.filter(num => num > 1);
+console.log(numerosMultiplicados); // [2, 4, 6]
+console.log(numerosFiltrados); // [2, 3]
