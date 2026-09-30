@@ -89,6 +89,7 @@ if(numero2 % 2 === 0){
 } */
 
 // ejercicio 4.4
+// Usa un bloque try...catch para intentar ejecutar un código que genere un error (throw new Error("Este es un error.")) y captura el error para mostrar un mensaje amigable.
 try{
     throw new Error("algo salió mal");
 } catch (error){
