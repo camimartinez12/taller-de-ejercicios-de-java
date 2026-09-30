@@ -67,7 +67,7 @@ console.log(5 === "5"); // seria false porque los === comparan el valor y el tip
 */
 
 // ejercicio 4.2
-const numero1 = 10;
+/*const numero1 = 10;
 const numero2 = 21;
 
 if(numero1 % 2 === 0){
@@ -80,4 +80,10 @@ if(numero2 % 2 === 0){
     console.log(numero2 + " es par");
 } else {
     console.log(numero2 + " es impar");
+}
+*/
+// ejercicio 4.3
+// Usa un ciclo for para imprimir en la consola los números del 1 al 5
+for (let i=0; i<=5; i++){
+    console.log(i);
 }
