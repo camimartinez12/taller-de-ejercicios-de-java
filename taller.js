@@ -179,14 +179,27 @@ console.log(indiceManzana); // 0*/
 /*Crea un objeto libro con propiedades titulo y autor.
 Añade un método mostrarInfo que use this para imprimir la información del libro.
 */
-const libro = {
+/*const libro = {
     titulo: "El Principito",
     autor: "Antoine de Saint-Exupéry",
     mostrarInfo() {
         console.log("Título: " + this.titulo + ", Autor: " + this.autor);
     }
 };
-libro.mostrarInfo();
+libro.mostrarInfo();*/
 
+//ejercicio 8.2
+/*Crea una clase llamada Animal con un constructor que reciba un nombre.
+Agrega un método saludar que retorne un saludo usando el nombre.
+Crea una instancia de la clase y llama al método saludar.*/
+
+class Animal {
+    constructor(nombre) {
+        this.nombre = nombre;
+    }
+saludar(){
+    console.log("hola $(this.nombre)")
+}
+}
 
 
