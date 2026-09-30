@@ -62,5 +62,22 @@ console.log(typeof boolResultado2);
 */
 
 // ejercicio 4.1
-console.log(5 == "5"); //seria true porque los == comparan solo el valor
+/*console.log(5 == "5"); //seria true porque los == comparan solo el valor
 console.log(5 === "5"); // seria false porque los === comparan el valor y el tipo de dato
+*/
+
+// ejercicio 4.2
+const numero1 = 10;
+const numero2 = 21;
+
+if(numero1 % 2 === 0){
+    console.log(numero1 + " es par");
+} else {
+    console.log(numero1 + " es impar");
+}
+
+if(numero2 % 2 === 0){
+    console.log(numero2 + " es par");
+} else {
+    console.log(numero2 + " es impar");
+}
