@@ -111,7 +111,23 @@ console.log(multiplicar(5, 3)); */
 
 // ejercicio 5.3
 //Escribe una arrow function llamada saludar que no reciba parámetros y retorne el texto "¡Hola a todos!".
-const saludar = () => {
+/*const saludar = () => {
     return "¡Hola a todos!";
 };
 console.log(saludar());
+*/
+
+// ejercicio 6.1
+//Declara una variable global en el ámbito global. Luego, dentro de una función, declara una variable local. Intenta acceder a ambas variables dentro y fuera de la función, y explica qué funciona y qué no.
+const variableGlobal = "Soy global";
+
+function mostrarScope() {
+    const variableLocal = "Soy local";
+    console.log(variableGlobal);
+    console.log(variableLocal);
+}
+mostrarScope();
+console.log(variableGlobal);
+console.log(variableLocal); 
+// Si funciona la variable global, pero no la local, ya que la variable local solo existe dentro de la función donde fue declarada.
+
