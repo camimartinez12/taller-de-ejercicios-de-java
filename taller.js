@@ -156,8 +156,21 @@ console.log(frutas);*/
 
 //ejercicio 7.2
 //Crea un array numeros = [1, 2, 3]. Usa map() para crear un nuevo array con cada número multiplicado por 2. Usa filter() para crear un nuevo array con solo los números mayores a 1.
-let numeros = [1, 2, 3];
+/*let numeros = [1, 2, 3];
 const numerosMultiplicados = numeros.map(num => num * 2);
 const numerosFiltrados = numeros.filter(num => num > 1);
 console.log(numerosMultiplicados); // [2, 4, 6]
-console.log(numerosFiltrados); // [2, 3]
+console.log(numerosFiltrados); // [2, 3]*/
+
+//ejercicio 7.3
+/* Usa forEach() para iterar sobre el array frutas y mostrar cada fruta en la consola.
+Usa find() para encontrar la fruta que sea "Banana".
+Usa findIndex() para encontrar el índice de la fruta "Manzana".*/
+let frutas = ["Manzana", "Banana", "Naranja"];
+frutas.forEach(fruta => console.log(fruta));
+
+const frutaEncontrada = frutas.find(fruta => fruta === "Banana");
+console.log(frutaEncontrada); // "Banana"
+
+const indiceManzana = frutas.findIndex(fruta => fruta === "Manzana");
+console.log(indiceManzana); // 0
