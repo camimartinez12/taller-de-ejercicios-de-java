@@ -90,8 +90,16 @@ if(numero2 % 2 === 0){
 
 // ejercicio 4.4
 // Usa un bloque try...catch para intentar ejecutar un código que genere un error (throw new Error("Este es un error.")) y captura el error para mostrar un mensaje amigable.
-try{
+/*try{
     throw new Error("algo salió mal");
 } catch (error){
     console.log("Lo siento, ocurrio un error :,( ",error.message);
 }
+*/
+
+// ejercicio 5.1
+// Escribe una función tradicional llamada multiplicar que reciba dos parámetros y retorne su producto. Llama a la función y muestra el resultado.
+function multiplicar(a, b) {
+    return a * b;
+}
+console.log(multiplicar(5, 3));
