@@ -135,7 +135,7 @@ console.log(variableLocal);
 
 // ejercicio 6.2
 //Crea un objeto coche con una propiedad marca y un método mostrarMarca que use this. Llama al método y explica qué representa this.
-const coche = {
+/*const coche = {
     marca: "BYD",
     mostrarMarca() { 
         console.log(this.marca);
@@ -143,3 +143,13 @@ const coche = {
 };
 coche.mostrarMarca(); // Muestra "BYD"
 // this representa el objeto coche en este caso.
+*/
+
+//ejercicio 7.1
+//Crea un array frutas = ["Manzana", "Banana"]. Usa push() para agregar "Naranja" y pop() para eliminar el último elemento. Muestra el array en cada paso.
+let frutas = ["Manzana", "Banana"];
+console.log(frutas);
+frutas.push("Naranja");
+console.log(frutas);
+frutas.pop();
+console.log(frutas);
