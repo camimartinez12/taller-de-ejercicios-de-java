@@ -38,7 +38,24 @@ console.log(typeof persona);
 console.log(Array.isArray(persona.hobbies)); */
 
 // ejercicio 3.1
-const numero1 = 10;
+/*const numero1 = 10;
 const numero2 = "5";
 console.log(numero1 + numero2); // suma de número y cadena por lo que se realiza una concatenación
 console.log(numero1 * numero2); // Multiplicación de número y cadena lo que se realiza una conversión implícita de la cadena a número
+*/
+
+//ejercicio 3.2
+const numero = 10;
+const cadena = String(numero);
+console.log(typeof cadena); // "string"
+
+const numero2 = "100";
+const numeroResultado= Number(numero2);
+console.log(typeof numeroResultado); // "number"
+
+const bool1 = "";
+const bool2 = "holis";
+const boolResultado1 = Boolean(bool1);
+const boolResultado2 = Boolean(bool2);
+console.log(typeof boolResultado1); 
+console.log(typeof boolResultado2); 
