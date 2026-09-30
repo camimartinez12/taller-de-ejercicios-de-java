@@ -84,6 +84,13 @@ if(numero2 % 2 === 0){
 */
 // ejercicio 4.3
 // Usa un ciclo for para imprimir en la consola los números del 1 al 5
-for (let i=0; i<=5; i++){
+/*for (let i=0; i<=5; i++){
     console.log(i);
+} */
+
+// ejercicio 4.4
+try{
+    throw new Error("algo salió mal");
+} catch (error){
+    console.log("Lo siento, ocurrio un error :,( ",error.message);
 }
