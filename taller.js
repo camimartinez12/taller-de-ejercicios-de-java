@@ -106,5 +106,12 @@ console.log(multiplicar(5, 3)); */
 
 // ejercicio 5.2 
 //   Convierte la función multiplicar del ejercicio anterior en una arrow function de una sola línea.
-const multiplicar = (a, b) => a * b;
-console.log(multiplicar(5, 3));
+/*const multiplicar = (a, b) => a * b;
+console.log(multiplicar(5, 3)); */
+
+// ejercicio 5.3
+//Escribe una arrow function llamada saludar que no reciba parámetros y retorne el texto "¡Hola a todos!".
+const saludar = () => {
+    return "¡Hola a todos!";
+};
+console.log(saludar());
