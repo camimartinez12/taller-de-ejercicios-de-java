@@ -99,7 +99,12 @@ if(numero2 % 2 === 0){
 
 // ejercicio 5.1
 // Escribe una función tradicional llamada multiplicar que reciba dos parámetros y retorne su producto. Llama a la función y muestra el resultado.
-function multiplicar(a, b) {
+/*function multiplicar(a, b) {
     return a * b;
 }
+console.log(multiplicar(5, 3)); */
+
+// ejercicio 5.2 
+//   Convierte la función multiplicar del ejercicio anterior en una arrow function de una sola línea.
+const multiplicar = (a, b) => a * b;
 console.log(multiplicar(5, 3));
