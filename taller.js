@@ -45,7 +45,7 @@ console.log(numero1 * numero2); // Multiplicación de número y cadena lo que se
 */
 
 //ejercicio 3.2
-const numero = 10;
+/*const numero = 10;
 const cadena = String(numero);
 console.log(typeof cadena); // "string"
 
@@ -59,3 +59,8 @@ const boolResultado1 = Boolean(bool1);
 const boolResultado2 = Boolean(bool2);
 console.log(typeof boolResultado1); 
 console.log(typeof boolResultado2); 
+*/
+
+// ejercicio 4.1
+console.log(5 == "5"); //seria true porque los == comparan solo el valor
+console.log(5 === "5"); // seria false porque los === comparan el valor y el tipo de dato
